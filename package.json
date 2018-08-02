@@ -1,0 +1,47 @@
+{
+  "name": "hello-react",
+  "version": "1.0.0",
+  "description": "build react app from scratch",
+  "main": "app/index.html",
+  "scripts": {
+    "watch": "webpack --watch --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.dev.js",
+    "start": "webpack-dev-server --config webpack.config.dev.js --open",
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shengtao/hello-react.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "jingshuo <dlhuang1108@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shengtao/hello-react/issues"
+  },
+  "homepage": "https://github.com/shengtao/hello-react#readme",
+  "dependencies": {
+    "prop-types": "15.5.10",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "clean-webpack-plugin": "0.1.16",
+    "express": "4.15.4",
+    "webpack": "3.5.4",
+    "webpack-dev-middleware": "1.12.0",
+    "webpack-dev-server": "2.7.1"
+  }
+}
